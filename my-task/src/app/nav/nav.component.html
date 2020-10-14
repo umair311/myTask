@@ -1,0 +1,155 @@
+<mat-sidenav-container class="sidenav-container" >
+  <mat-sidenav  #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+
+    <mat-nav-list class="list">
+      <a mat-list-item href="#">Get Access to Database</a>
+      <a mat-list-item href="#">Import Data</a>
+      <a mat-list-item href="#">Calender</a>
+      <a mat-list-item href="#">Send Mass Mails</a>
+      <a mat-list-item href="#">Chats and Calls</a>
+      <a mat-list-item href="#">Tasks</a>
+      <a mat-list-item href="#">Share Database</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="tool">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <div>
+
+      </div>
+    
+    </mat-toolbar>
+   
+    <!-- Add Content Here -->
+    <div class="maine">
+      <div class="main">
+  <div class="dash">
+      <h3>Dashboard</h3>
+  </div>
+  <div class="user">
+    <a mat-button [matMenuTriggerFor]="menu">Username</a>
+    <mat-menu #menu="matMenu">
+      <a mat-menu-item>Logout</a>
+   
+    </mat-menu>
+  </div>
+  
+      </div>
+  
+      <div class="card">
+          
+  <mat-card class="example-card">
+      <mat-card-header>
+        <div class="container">
+          <div class="block">
+           <p class="sumray">Summary of the BD Effort</p>
+          </div>
+          <div class="block1">
+           <img src="../../assets/chart-bar-solid.svg" alt="">
+          </div>
+        </div>
+        <mat-card-title >
+       
+      
+        
+        </mat-card-title>
+        
+      </mat-card-header>
+      <mat-card-content>
+       <div class="content">
+           <div class="left">
+            <div class="content borderr"> 
+                <div class="left" >
+  <p>Identified</p>
+                </div>
+                <div class="right iden" >
+  <p>1661</p>
+                </div>
+            </div>
+   </div>
+           <div class="right cal" >
+            <div class="content borderr"> 
+                <div class="left">
+  <p>Calvating</p>
+                </div>
+                <div class="right iden">
+  <p>23</p>
+                </div>
+            </div>
+           </div>
+           
+       </div>
+  
+       <div class="content" style="margin-top:20px">
+          <div class="left">
+           <div class="content borderr"> 
+               <div class="left" >
+  <p>Qulified</p>
+               </div>
+               <div class="right iden">
+  <p>190</p>
+               </div>
+           </div>
+  </div>
+          <div class="right cal"  >
+           <div class="content borderr"> 
+               <div class="left">
+  <p>Reaped</p>
+               </div>
+               <div class="right iden" >
+  <p>13</p>
+               </div>
+           </div>
+          </div>
+          
+      </div>
+  
+      <div class="content top" >
+          <div class="left">
+           <div class="content" > 
+               <div class="left" >
+  <p>Sowed</p>
+               </div>
+               <div class="right iden"  >
+  <p>74</p>
+               </div>
+           </div>
+  </div>
+          <div class="right cal" >
+           <div class="content"> 
+               <div class="left">
+  <p>Clients</p>
+               </div>
+               <div class="right iden">
+  <p>8</p>
+               </div>
+           </div>
+          </div>
+          
+      </div>
+  
+      </mat-card-content>
+    
+    </mat-card>
+    
+      </div>
+      <div class="myuser">
+        <p>
+          User 01
+        </p>
+      </div>
+  </div>
+  
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

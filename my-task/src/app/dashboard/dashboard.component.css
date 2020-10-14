@@ -1,0 +1,101 @@
+.dashboard {
+    width: 100%;
+   display: flex;
+    /* background-color: rgb(17, 17, 156);; */
+  }
+  .drawr
+  {
+    width: 25%;
+    height: 96vh!important;
+    
+    border: 1px solid #555;
+    background-color: rgb(17, 17, 156);; 
+  }
+  .drawr ul{
+      margin-top: 30%;
+  }
+  .drawr ul li{
+      list-style-type: none;
+      color: white;
+      margin-top: 10%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .drawr ul li a{
+      text-decoration: none;
+      color: white;
+  }
+  .maine
+  {
+    width: 100%;
+      background-color: #DCDCDC
+  }
+  .main{
+     
+      margin-top: 2%;
+      display: flex;
+  }
+  .dash{
+      width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 156);
+    text-align: right;
+
+  }
+  .user{
+      width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 156);
+    text-align: right;
+    margin-right: 5%;
+
+  }
+
+      
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+
+    background-size: cover;
+  }
+  .sumray
+  {
+      font-size: 16px;
+      color: rgb(17, 17, 156);
+      margin-bottom: 20px;
+      margin-left: -20px;
+  }
+  .content
+  {
+      width: 100%;
+      display: flex
+  }
+  .left{
+    width: 50%;
+    display: flex
+
+  }
+
+  .left p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 156);
+    font-size: 12px;
+  }
+  .right{
+    width: 50%;
+    display: flex
+
+  }
+  .right p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 156);
+    font-size: 12px;
+  }
+  .card{
+      margin-left: 5%;
+      margin-top: 5%;
+      width: 388px;
+
+  }

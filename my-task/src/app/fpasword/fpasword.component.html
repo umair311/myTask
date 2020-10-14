@@ -1,0 +1,44 @@
+
+<div class="loginStyle">
+    <form class="example-form" >
+       
+      
+        <div *ngIf="show">
+    <div>
+      <mat-form-field class="example-full-width" floatLable="never" appearance ="outline">
+        <!-- <mat-label >User Name</mat-label> -->
+        <input matInput placeholder="Enter Your Email" >
+      </mat-form-field>
+    </div>
+   
+  
+    <div>
+      <button mat-flat-button color="primary" class="button" (click)="proceed()">Proceed</button>
+    </div>
+        </div>
+
+
+        <div *ngIf="!show">
+            <div>
+              <mat-form-field class="example-full-width" floatLable="never" appearance ="outline">
+                <!-- <mat-label >User Name</mat-label> -->
+                <input matInput placeholder="New Password" >
+              </mat-form-field>
+            </div>
+        
+            <div>
+                <mat-form-field class="example-full-width" floatLable="never" appearance ="outline">
+                  <!-- <mat-label >User Name</mat-label> -->
+                  <input matInput placeholder="Confirm Password" >
+                </mat-form-field>
+              </div>
+           
+          
+            <div>
+              <button mat-flat-button color="primary"  class="button" >Login</button>
+            </div>
+                </div>
+      </form>
+
+     
+    </div>

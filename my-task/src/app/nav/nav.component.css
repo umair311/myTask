@@ -1,0 +1,223 @@
+html,body{
+ 
+  min-height: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.sidenav-container {
+  height: 100%;
+  
+}
+
+.sidenav {
+  width: 300px;
+  background-color: #023e73 !important;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.tool{
+background-color: #F1F1F1;
+
+}
+.list
+{
+  margin-top: 105px;
+  margin-left: 30px;
+
+}
+.list a{
+  
+  font-size: 14px;
+  text-align: left;
+  
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.container{
+ max-width: 100%;
+  display: flex;
+}
+.block{
+  width:50%
+}
+.block1{
+  width: 50%;
+  text-align: right;
+}
+
+
+.maine{
+padding-bottom: 260px;
+  margin-top:-30px;
+  width: 100%;
+  background-color: #F1F1F1;
+}
+.main{
+   
+    margin-top: 2%;
+    display: flex;
+}
+.dash{
+    width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #023e73 !important;
+  text-align: right;
+
+
+}
+.dash h3{
+  font-size: 20px;
+  letter-spacing: 0;
+
+}
+.dash p{
+  font-size: 14px;
+  letter-spacing: 0;
+
+}
+.user{
+    width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #023e73 !important;
+  text-align: right;
+  margin-right: 5%;
+
+}
+.user a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #023e73 !important;
+}
+mat-menu a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #023e73 !important;
+}
+.myuser
+{
+  text-decoration: none;
+  font-size: 16px;
+  color: #023e73 !important;
+  margin-left: 30%;
+  margin-top: 10px;
+  background-color: #F1F1F1;
+}
+
+    
+
+.example-card {
+  max-width: 100%;
+min-width: 50%;
+
+  
+}
+
+.example-header-image {
+
+  background-size: cover;
+}
+.sumray
+{
+    font-size: 20px;
+    color: #023e73 !important;
+  
+    margin-left: -40px;
+}
+.content
+{
+    width: 100%;
+    display: flex;
+    /* border-bottom: 1px solid lightgray; */
+}
+.left{
+  width: 50%;
+  display: flex
+
+}
+.borderr
+{
+  border-bottom:1px solid lightgray;
+}
+
+.left p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #023e73 !important;
+  font-size: 12px;
+}
+.right{
+  width: 50%;
+  display: flex
+
+}
+.right p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #023e73 !important;
+  font-size: 12px;
+}
+.card{
+    margin-left: 5%;
+    margin-top: 5%;
+  max-width: 50%;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+  .card{
+    margin-left: 5%;
+    margin-top: 5%;
+  max-width: 80%;
+    width: 100%;
+
+}
+.maine{
+  padding-bottom: 170%;
+    margin-top:-30px;
+    width: 100%;
+    background-color: #F1F1F1;
+  }
+  .sumray
+{
+    font-size: 16px;
+    color: #023e73 !important;
+
+    margin-left: -40px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .card{
+    margin: 0%;
+    margin-top: 5%;
+  max-width: 100%;
+    width: 100%;
+
+}
+.maine{
+  padding-bottom: 134%;
+    margin-top:-30px;
+    width: 100%;
+    background-color: #F1F1F1;
+  }
+}
+.iden{
+  margin-left: 50%;
+}
+.cal
+{
+  margin-left: 20px;
+}
+.top{
+  margin-top:20px
+}

@@ -1,0 +1,44 @@
+
+
+.loginStyle
+{
+    text-align: center;
+    margin: 10%;
+   
+}
+.example-form {
+    min-width: 150px;
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .heading{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(17, 17, 156);
+  }
+  .para
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 156); 
+  }
+  .button
+  {
+    width: 100%;  
+  }
+  .forgot{
+      text-align: right;
+      margin-bottom: 10px;
+
+  }
+  .forgot a
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 156); 
+    text-align: right;
+    text-decoration: none;
+  }
